@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEUS GASTOS</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <form action="">
+        <div>
+            <div>
+                <label for="">E-mail:</label>
+            </div>
+            <input type="email" name="email" id="email" onchange="validateFields()" placeholder = "seu@e-mail.com" > 
+        </div>
+        
+        <div>
+            <div>
+                <label for="">Senha:</label>
+            </div>
+            <input type="password" name="password" id="password" onchange="validateFields()" placeholder="sua senha">
+
+        </div>
+        
+        <div>
+            <button type="button" class="clear" id="recover-password-button" disabled="true">Recuperar Senha</button> 
+        </div>
+        <div>
+            <button type="button" class="solid" id="login-button" disabled="true">Entrar</button> 
+        </div>
+        <div>
+            <button type="button" class="outline">Registrar</button> 
+        </div>
+
+
+    </form>
+</body>
+<script src="index.js"></script>
+
+</html>
